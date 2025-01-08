@@ -29,4 +29,6 @@ variable "aws_secret_key" {
 variable "db_encrypted" {
   description = "Encrypt the database storage"
   type = bool
+
+  //
 }
